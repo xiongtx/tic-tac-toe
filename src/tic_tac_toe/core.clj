@@ -86,7 +86,7 @@
   "Show that a player won."
   [board player]
   (print-board board)
-  (println "Player" (player-name other-player) "won!"))
+  (println "Player" (player-name player) "won!"))
 
 (defn -main
   "Play tic-tac-toe at the command line."
